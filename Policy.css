@@ -47,7 +47,7 @@ body{
     margin-left: 500px;
     margin-top: 100px;
     line-height: 1.5;
-    height: 1200px;
+    height: 1300px;
 }
 
 /* --------------------------------*/
@@ -74,11 +74,11 @@ body{
 }
 
 .footer2 input{
-    width: 720px;
+    width: 600px;
     height: 70px;
     padding-left: 20px;
     margin-top: 40px;
-    margin-left: 350px;
+    margin-left: 200px;
     font-size: 18px;
     border-radius: 5px;
     border: none;
@@ -93,8 +93,8 @@ body{
     border-radius: 5px;
     padding: 8px 25px 8px 25px;
     font-size: 20px;
-    top: 1945px;
-    left: 1300px;
+    top: 2043px;
+    left: 1020px;
     cursor: pointer;
 }
 .footer2 p {
@@ -162,13 +162,13 @@ body{
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: #232ED1;
-    margin-top: 1075px;
+    margin-top: 1180px;
     margin-left: 15%;
 }
 
 .button {
     margin-top: 110px;
-    margin-left: 950px;
+    margin-left: 800px;
 }
 .btn_view{
     text-decoration: none;
@@ -176,7 +176,6 @@ body{
     background: #F24C27;
     color: white;
     padding: 25px 60px 25px 60px;
-    font-size: 15px;
     font-size: 20px;
 }
 .insert_text {
@@ -192,8 +191,8 @@ body{
 
 .icons_svg {
     position: absolute;
-    top: 1267px;
-    left: 230px;
+    top: 1372px;
+    left: 240px;
 }
 
 
@@ -235,46 +234,57 @@ body{
         width: auto;
     }
     .footer3 p{
-        padding-left: 30%;
+        padding-left: 25%;
     }
+    
     .footer2 p {
-        margin-left: 25%;
+        margin-left: 21%;
         position: absolute;
     }
     .footer2 input, button{
         display: none;
     }
     .footer1 {
-        height: 400px;
+        height: 200px;
     }
     .col-1 {
         display: none;
     }
-    .col-2, .col-3, .col-4 {
+    .col-2, .col-4 {
         width: 28%;
-
+    }
+    .col-3 {
+        width: 20%;
     }
     .col-2 #footer_title{
-        padding-left: 30px;
-        padding-top: 0;
+        padding: 0;
+        padding-bottom: 10px;
+        margin: 0;
     }
     .col-2 li{
         padding-left: 0;
     }
 
     .col-3 #footer_title{
-        padding-left: 40px;
-        padding-top: 0;
+        padding: 0;
+        padding-bottom: 10px;
+        margin: 0;
     }
     .col-3 li{
         padding-left: 0;
     }
 
     .col-4 #footer_title{
-        padding-left: 40px;
-        padding-top: 0;
+        padding: 0;
+        padding-bottom: 10px;
+        margin: 0;
     }
     .col-4 li {
         padding-left: 0;
+    }
+
+    .footer_list{
+        padding: 0;
+        margin: 0;
     }
 }
