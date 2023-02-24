@@ -1,0 +1,218 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0;
+}
+.main {
+    width: 100%;
+    height: 1080px;
+    background-image: linear-gradient(180deg, #F4F5FC 0%, #E6E7FF 100%);
+}
+
+/* Navi Bar */
+/* -----------------------------------------------*/
+.nav {
+    width: auto;
+} 
+nav a{
+    padding: 15px 20px 15px 20px;
+}
+.nav a:hover{
+    background-color: #232ED1;
+    color: #FFFFFF;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+}
+.nav_pc {
+    display: flex;
+}
+.nav_list {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+}
+
+.nav_link {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #5B5B5B;
+}
+
+#finsweet {
+    position: relative;
+    margin-left: 200px;
+    margin-top: 34px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+#clone {
+    border: 1px solid #232ED1;
+    border-radius: 5px;
+    padding: 20px 30px 15px 30px;
+    margin-left: 350px; 
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Content1 */
+/* -----------------------------------------------*/
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 100px;
+    height: 600px;
+}
+.content_left {
+    flex: 1;
+}
+.content_left #content_title{
+    font-size: 50px;
+    padding-left: 200px;
+}
+.content1 #content_text{
+    padding-left: 200px;
+    color: #5B5B5B;
+    padding-bottom: 50px;
+}
+.btn_content {
+    margin-left: 200px;
+}
+.btn1_content1{
+    padding: 20px 30px 20px 30px;
+    background-color: #232ED1;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn2_content1{
+    padding: 20px 30px 20px 30px;
+    color: #5B5B5B;
+    text-decoration: none;
+}
+.btn2_content1:hover{
+    color: #232ED1;
+}
+.content_right {
+    border: 1px solid black;
+    flex: 1;
+}
+.content_right img{
+    position: absolute;
+    width: 722px;
+    height: 459px;
+    margin-top: 50px;
+    border-radius: 0px 24px 24px 24px;
+    z-index: 1;
+}
+.content_right #icons_1{
+    position: absolute;
+    left: 1483px;
+    top: 465px;
+    width: 243px;
+    height: 269px;
+    z-index: 0;
+}
+.content_right #icons_2{
+    margin-top: 531px;
+    margin-left: 500px;
+}
+
+/* Content2.1 --------------------------------*/
+.content2-1{
+    border: 1px solid black;
+}
+
+/* Content2.2 --------------------------------*/
+
+.content2-2 {
+    display: flex;
+    border: 1px solid blue;
+}
+.content2-2_left {
+    width: 50%;
+    border: 1px solid greenyellow;
+}
+.content2-2_right {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.container_text {
+    border: 1px solid green;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.container_text #content2-2_text1{
+    color: #232ED1;
+    font-size: 18px;
+}
+.container_text #content2-2_text2{
+    color: #0D1317;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -3%;
+    margin-top: -5px;
+}
+.container_text #content2-2_text3{
+    color: #5B5B5B;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+.content2-2_right {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    width: 40%;
+}
+.point1, .point2, .point3, .point4 {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+.point1 {
+    margin-top: 20px;
+    background: linear-gradient(180deg, rgba(182, 186, 255, 0.2) 0%, rgba(35, 46, 209, 0.2) 100%);
+    color: #232ED1;
+    font-size: 24px;
+    line-height: 36px;
+}
+.point2 {
+    background: linear-gradient(180deg, rgba(182, 186, 255, 0.2) 0%, rgba(35, 46, 209, 0.2) 100%);
+    color: #232ED1;
+    font-size: 24px;
+    line-height: 36px;
+}
+.point3 {
+    margin-top: 20px;
+    background: linear-gradient(180deg, rgba(255, 217, 208, 0.2) 0%, rgba(242, 76, 39, 0.2) 100%);
+    color: #F24C27;
+    font-size: 24px;
+    line-height: 36px;
+}
+.point4 {
+    background: linear-gradient(180deg, rgba(255, 217, 208, 0.2) 0%, rgba(242, 76, 39, 0.2) 100%);
+    border-radius: 12px;
+    color: #F24C27;
+    font-size: 24px;
+    line-height: 36px;
+}
+#point_text {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.content2-2_right svg{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+
+

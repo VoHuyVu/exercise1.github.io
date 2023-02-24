@@ -12,8 +12,18 @@ body{
 /* -----------------------------------------------*/
 .nav {
     width: auto;
-    margin-top: 10px;
 } 
+nav a{
+    padding: 15px 20px 15px 20px;
+}
+.nav a:hover{
+    background-color: #232ED1;
+    color: #FFFFFF;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+}
 .nav_pc {
     display: flex;
 }
@@ -40,8 +50,10 @@ body{
 #clone {
     border: 1px solid #232ED1;
     border-radius: 5px;
-    padding: 15px 30px 15px 30px;
+    padding: 20px 30px 15px 30px;
     margin-left: 350px; 
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 /* -----------------------------------------------*/
@@ -84,11 +96,12 @@ svg {
     
     #clone {
         position: absolute;
-        top: 20px;
-        right: 20px;
-        padding: 5px 10px;
-        height: 60px;
-        width: 70px;
+        top: 120px;
+        right: 60px;
+        padding: 10px;
+        height: 40px;
+        width: 60px;
+        font-size: 15px;
     }
     .nav_list {
         flex-direction: column;  
