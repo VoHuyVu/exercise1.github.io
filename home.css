@@ -242,7 +242,138 @@ nav a{
     font-size: 18px;
     padding-top: 100px;
 }
+/* Content3-1 --------------------------------*/
+.content3-1 {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+}
+.content3-1_left {
+    width: 55%;
+}
+.content3-1_left #img2_home{
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0;
+    padding-left: 295px;
+}
+.content3-1_right {
+    width: 45%;
+    font-size: 18px; 
+    padding-top: 70px;   
+}
+.content3-1_right svg{
+    position: relative;
+    top: 5px;
+}
+.content3-1_right #content3-1_text1{
+    color: #232ED1;
+}
+.content3-1_right #content3-1_text2{
+    color: #0D1317;
+    font-size: 48px;
+}
+.content3-1_right #content3-1_text3{
+    color: #5B5B5B;
+}
+.content3-1_right #content3-1_text4{
+    color: #1A1A1A;
+}
 
-
-
-
+/* Content3-2 --------------------------------*/
+.content3-2 {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+.content3-2_left {
+    width: 50%;
+    padding-top: 70px;
+    font-size: 18px;
+}
+.content3-2_right {
+    width: 50%;
+}
+.content3-2_left svg {
+    position: relative;
+    top: 5px
+}
+.content3-2_right img {
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+}
+.content3-2_left #content3-2_text1{
+    color: #232ED1;
+}
+.content3-2_left #content3-2_text2{
+    font-size: 48px;
+    color: #0D1317;
+}
+.content3-2_left #content3-2_text3{
+    color: #5B5B5B;
+}
+.container_content3-2_left{
+    padding-left: 400px;
+}
+/* Content3-3 --------------------------------*/
+.content3-3 {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+.content3-3_left {
+    width: 55%;
+}
+.content3-3_left img{
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    padding-left: 295px;
+}
+.content3-3_right {
+    width: 50%;
+    padding-top: 70px;
+    font-size: 18px;   
+}
+.content3-3_right svg{
+    position: relative;
+    top: 5px;
+}
+.content3-3_right #content3-3_text1{
+    color: #232ED1;
+}
+.content3-3_right #content3-3_text2{
+    color: #0D1317;
+    font-size: 48px;
+}
+.content3-3_right #content3-3_text3{
+    color: #5B5B5B;
+}
+.content3-3_right #content3-3_text4{
+    color: #1A1A1A;
+}
+.container_content3-3_right{
+    padding-left: 100px;
+}
+/* Content4 --------------------------------*/
+.content4 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+}
+.content4_left, .content4_mid, .content4_right {
+    width: 25%;
+    border: 1px solid blue;
+    margin-top: 160px;
+}
+.content4 #content4_title {
+    font-size: 48px;
+    color: #0D1317;
+    height: 50px;
+    width: 800px;
+}
