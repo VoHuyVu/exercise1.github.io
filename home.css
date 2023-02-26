@@ -4,7 +4,8 @@ body{
 }
 .main {
     width: 100%;
-    height: 1080px;
+    height: 100%;
+    border: 1px solid blue;
 }
 .contain_Nav-conten1{
     background-image: linear-gradient(180deg, #F4F5FC 0%, #E6E7FF 100%);
@@ -12,51 +13,57 @@ body{
 
 /* Navi Bar */
 /* -----------------------------------------------*/
-.nav {
-    width: auto;
-    height: 200px;
-} 
-nav a{
-    padding: 15px 20px 15px 20px;
-}
-.nav a:hover{
-    background-color: #232ED1;
-    color: #FFFFFF;
-    transition-delay: 0.2s;
-    transition-duration: 0.2s;
-    border-radius: 5px;
-    padding: 15px 20px 15px 20px;
-}
-.nav_pc {
+.nav{
     display: flex;
+    padding-top: 1.5%;
 }
-.nav_list {
-    list-style: none;
-    display: flex;
-    padding-top: 20px;
+.nav li{
+   display: inline-block;
+   margin-left: 3%;
+   width: auto
 }
-
-.nav_link {
-    margin-right: 50px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #5B5B5B;
+.nav .items1{
+   margin-left: 0;
 }
-
-#finsweet {
-    position: relative;
-    margin-left: 200px;
-    margin-top: 34px;
-    padding-right: 30px;
-    font-size: 20px;
+.nav a{
+   font-size: 18px;
+   color: #5B5B5B;
+   text-decoration: none;
+   padding: 15px 20px 15px 20px;
+   width: 5%;
+}
+ul{
+   width: 60%;
+   height: 20%;
+   margin-left: 15%;
+}
+#finsweet{
+   position: absolute;
+   color: #0D1317;
+   font-size: 24px;
+   margin-left: 8%;
+   margin-top: 0.7%;
 }
 #clone {
-    border: 1px solid #232ED1;
-    border-radius: 5px;
-    padding: 20px 30px 15px 30px;
-    margin-left: 350px; 
-    margin-top: 20px;
-    cursor: pointer;
+   border: 2px solid rgba(35, 46, 209, 0.4);
+   color: #0D1317;
+   padding: 20px 30px 15px 50px;
+   width: 7%;
+   border-radius: 5px;
+}
+.nav a:hover{
+   background-color: #232ED1;
+   color: #FFFFFF;
+   transition-delay: 0.2s;
+   transition-duration: 0.2s;
+   border-radius: 5px;
+}
+#clone:hover{
+   background-color: red;
+   color: #FFFFFF;
+   transition-delay: 0.2s;
+   transition-duration: 0.2s;
+   border-radius: 5px;
 }
 
 /* Content1 */
