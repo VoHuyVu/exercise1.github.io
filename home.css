@@ -11,6 +11,7 @@ body {
 .containter_Nav-content1 {
     background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
 }
+@media (min-width: 992px){}
 
 /* Navi Bar */
 /* -----------------------------------------------*/
@@ -443,11 +444,11 @@ ul {
 }
 
 .container4_col {
-    position: absolute;
+    position: relative;
     width: 70%;
     height: 70%;
     display: flex;
-    margin-top: 6%;
+    margin-top: 10%;
     left: 13%;
 }
 
