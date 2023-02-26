@@ -444,7 +444,7 @@ ul {
 }
 
 .container4_col {
-    position: relative;
+    position: absolute;
     width: 70%;
     height: 70%;
     display: flex;
