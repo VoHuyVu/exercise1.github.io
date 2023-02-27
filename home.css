@@ -5,13 +5,11 @@ body {
 
 .main {
     width: 100%;
-    height: 100%;
 }
 
 .containter_Nav-content1 {
     background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
 }
-@media (min-width: 992px){}
 
 /* Navi Bar */
 /* -----------------------------------------------*/
