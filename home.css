@@ -466,6 +466,7 @@ ul {
 /* Content5 --------------------------------*/
 .content5 {
     position: relative;
+    padding-top: 5%;
 }
 
 .content5_list li {
@@ -799,7 +800,8 @@ ul {
     .footer3 p {
         padding-left: 25%;
     }
-    .footer_items{
+
+    .footer_items {
         font-size: 12px;
     }
 
@@ -848,7 +850,6 @@ ul {
     }
 
     .container_text {
-        border: 1px solid blue;
         width: 100%;
         margin-left: 0;
         margin-top: 0;
@@ -976,26 +977,30 @@ ul {
     .content4 {
         padding-bottom: 100%;
     }
+
     .content4 #content4_title {
         font-size: 24px;
     }
+
     .container4_col {
         top: 10%;
         left: 5%;
         width: 100%;
         flex-direction: column;
+    }
 
-    }
-    .content4_left{
+    .content4_left {
         width: 90%;
     }
-    .content4_mid{
+
+    .content4_mid {
         width: 90%;
     }
-    .content4_right{
+
+    .content4_right {
         width: 90%;
     }
-    
+
     .content5 {
         display: none;
     }

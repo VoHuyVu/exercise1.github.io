@@ -157,7 +157,6 @@ textarea {
 
 .input-container p {
     margin: 0 0 3% 5%;
-    border: 1px solid black;
     width: 45%;
     padding: 15px 0 0 20px;
     border-radius: 5px;
@@ -409,7 +408,6 @@ textarea {
     }
 
     .content_left {
-        border: 1px solid red;
         width: 100%;
     }
 
@@ -422,11 +420,9 @@ textarea {
         font-size: 24px;
     }
     .content_right {
-        border: 1px solid blue;
         width: 100%;
     }
     .container_right {
-        border: 1px solid red;
         width: 90%;
         padding-left: 2%;
     }
