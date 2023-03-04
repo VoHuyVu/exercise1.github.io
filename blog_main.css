@@ -47,7 +47,7 @@ ul {
 #clone {
     border: 2px solid rgba(35, 46, 209, 0.4);
     color: #0D1317;
-    padding: 20px 30px 15px 50px;
+    padding: 20px 30px 5px 50px;
     width: 7%;
     border-radius: 5px;
 }
@@ -67,102 +67,90 @@ ul {
     transition-duration: 0.2s;
     border-radius: 5px;
 }
+/*CONTENT1 ------------------------------*/
+.container_nav_content1 {
+    background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
+    padding-bottom: 5%;
+}
 
-/* CONTENT -------------------------------*/
-.content {
-    height: 700px;
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content1_left {
+    width: 40%;
+}
+
+.content1_right {
+    width: 60%;
+}
+
+.container_content1_left {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.container_content1_left #text1 {
+    font-size: 14px;
+    color: #232ED1;
+}
+
+.container_content1_left h1 {
+    font-size: 64px;
+}
+
+.container_content1_left #text2 {
+    font-size: 18px;
+    color: #5B5B5B;
+}
+
+.content1_right img {
+    margin-top: 10%;
+    max-width: 80%;
+}
+/*CONTENT2---------------------------------*/
+.container_content2 {
+    padding-bottom: 15%;
+    position: relative;
+}
+.content2 h1 {
+    margin-left: 16%;
+    padding-top: 3%;
+    font-size: 48px;
+}
+.container-col {
     display: flex;
     width: 100%;
-    height: 800px;
 }
-
-.content_left {
-    width: 45%;
+.col_left, .col_mid, .col_right {
+    width: 25%;
+    padding-top: 2%;
 }
-
-.content_right {
-    width: 55%;
+.col_left {
+    margin-left: 15%;
+} 
+.container-col img {
+    width: 90%;
 }
-
-.container_right {
-    width: 52%;
-    height: 85%;
-    position: relative;
-    padding-top: 0;
-}
-
-#content_right_text {
-    margin: 25% 0 5% 0;
+.container-col h3 {
     font-size: 24px;
+    color: #000000;
 }
-
-.content_left img,
-#content_left_text1,
-#content_left_text2 {
-    margin-left: 45%;
+.container-col #content2_txt {
+    font-size: 18px;
+    color: #5B5B5B;
 }
-
-.content_left {
+.container-col a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1A1A1A;
+}
+.container-col svg {
     position: relative;
+    top: 7px;
 }
-
-.content_left img {
-    margin-top: 15%;
-}
-
-.content_left #content_left_text1 {
-    font-size: 64px;
-    color: #0D1317;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-/*form ----------------------------------*/
-input[type="text"],
-textarea {
-    padding: 15px;
-    margin-bottom: 3%;
-    width: 94%;
-    border-radius: 5px;
-    border: 2px solid rgba(159, 160, 184, 0.4);
-}
-
-#email,
-#subject {
-    width: 94%;
-}
-
-#name {
-    width: 45%;
-}
-
-#submit {
-    width: 100%;
-    padding: 15px;
-    cursor: pointer;
-    background-color: #F24C27;
-    color: #FFFFFF;
-    border-radius: 5px;
-    border: none;
-}
-
-#submit:hover {
-    background-color: orangered;
-}
-
-
-.input-container {
-    display: flex
-}
-
-.input-container p {
-    margin: 0 0 3% 5%;
-    width: 45%;
-    padding: 15px 0 0 20px;
-    border-radius: 5px;
-}
-
-/*FOOTER---------------------------------*/
+/*FOOTER ------------------------------*/
 .footer1 {
     height: 25%;
     background-color: #EFF0F8;
@@ -183,7 +171,7 @@ textarea {
 #finsweet_footer {
     font-size: 30px;
     padding-top: 20%;
-    padding-left: 25%;
+    padding-left: 65%;
 }
 
 .footer2 {
@@ -192,7 +180,6 @@ textarea {
     background-color: #EFF0F8;
     display: flex;
     position: relative;
-    padding-bottom: 5%;
 }
 
 .input_button {
@@ -202,7 +189,7 @@ textarea {
 
 .footer2 input {
     width: 70%;
-    height: 50%;
+    height: 60%;
     padding-left: 20px;
     margin-top: 2%;
     right: 0;
@@ -222,7 +209,7 @@ textarea {
     padding: 8px 25px 8px 30px;
     font-size: 20px;
     cursor: pointer;
-    top: 35%;
+    top: 25%;
     right: 1%;
 
 }
@@ -246,7 +233,7 @@ textarea {
 
 .icons {
     width: 30%;
-    margin-left: 15%;
+    margin-left: 55%;
 }
 
 #footer_title {
@@ -303,6 +290,65 @@ textarea {
     list-style: none;
     padding-bottom: 20px;
 }
+/*INSERT -------------------------------*/
+.insert2 {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #232ED1;
+    top: 95%;
+    left: 25%;
+}
+
+.button {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 40%;
+    left: 70%;
+}
+
+.btn_view {
+    text-decoration: none;
+    border-radius: 5px;
+    background: #F24C27;
+    color: white;
+    padding: 20px 35px 20px 35px;
+    font-size: 20px;
+}
+
+.insert_text {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.insert_text #text {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.insert_svg {
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    top: 85%;
+    left: 20%;
+}
+
+.svg1 {
+    position: absolute;
+    top: 33.5%;
+    left: 4%;
+}
+
+.svg2 {
+    position: absolute;
+    top: 65%;
+    left: 93%;
+}
 
 @media screen and (max-width: 46.1875em) {
     #finsweet {
@@ -333,8 +379,48 @@ textarea {
         margin-left: 0;
         margin-top: 15%;
     }
-
-    /*footer ------------------------------------*/
+    .content1 {
+        text-align: center;
+        
+    }
+    .content1_left {
+        width: 100%;
+    }
+    .container_content1_left {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    .container_content1_left h1 {
+        font-size: 32px;
+    }
+    .content1_right img{
+        margin-left: 40%;
+    }
+    /*CONTENT1*/
+    .content1 {
+        flex-direction: column;
+    }
+    .content1_left {
+        width: 100%;
+    }
+    .content1_right {
+        width: 100%;
+    }
+    .content1_right img {
+        margin-left: 0;
+        width: 100%;
+    }
+    /*CONTENT2*/
+    .container-col {
+        flex-direction: column;
+    }
+    .col_left, .col_mid, .col_right {
+        width: 97%;
+        margin-left: 0;
+        padding-left: 2%;
+    }
+    .insert2 {display: none;}
+    /*FOOTER ----------------------------*/
     #finsweet_footer {
         font-size: 18px;
         padding-top: 5%;
@@ -401,30 +487,5 @@ textarea {
 
     .footer_items {
         font-size: 12px;
-    }
-
-    /*content------------------------------*/
-    .content {
-        flex-direction: column;
-    }
-
-    .content_left {
-        width: 100%;
-    }
-
-    .content_left img,
-    #content_left_text1,
-    #content_left_text2 {
-        margin-left: 5%;
-    }
-    .content_left #content_left_text1 {
-        font-size: 24px;
-    }
-    .content_right {
-        width: 100%;
-    }
-    .container_right {
-        width: 90%;
-        padding-left: 2%;
     }
 }

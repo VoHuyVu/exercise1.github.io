@@ -6,9 +6,14 @@ body {
 .main {
     width: 100%;
     height: auto;
-    background-color: #E5E5E5;
 }
 
+.content_nav_content1 {
+    background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
+}
+
+/* Navi Bar */
+/* -----------------------------------------------*/
 .nav {
     display: flex;
     padding-top: 1.5%;
@@ -17,7 +22,8 @@ body {
 .nav li {
     display: inline-block;
     margin-left: 3%;
-    width: auto
+    width: auto;
+
 }
 
 .nav .items1 {
@@ -70,23 +76,138 @@ ul {
     border-radius: 5px;
 }
 
-/* --------------------------------*/
-.content {
-    height: 70%;
+/*CONTENT1 -------------------------------*/
+.container_nav_content1 {
+    background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
+}
+
+.content1 {
+    padding-bottom: 5%;
     position: relative;
-   
 }
 
-.content_text {
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 8%;
-    line-height: 1.5;
-    height: 80%;
-    padding-bottom: 10%;
+.content1 h1 {
+    font-size: 64px;
+    color: #0D1317;
 }
 
-/* --------------------------------*/
+.content1 #content1_text {
+    color: #5B5B5B;
+    font-size: 18px;
+}
+
+.container_content1 {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.insert_content1 {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+}
+
+.container_content1 {
+    width: 30%;
+}
+
+/*CONTENT2 -------------------------------*/
+.container1_content2 {
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+.container1_content2 h1 {
+    font-size: 48px;
+    color: #0D1317;
+}
+
+.container1_content2 #content2_text1 {
+    font-size: 18px;
+    color: #5B5B5B;
+    line-height: 30px;
+}
+
+.container1_content2 #content2_text2 {
+    font-size: 24px;
+    color: #5B5B5B;
+    line-height: 34px;
+}
+
+.container1_content2 #content2_text3 {
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.container1_content2 img {
+    width: 80%;
+    padding-top: 5%;
+}
+
+/*CONTENT3 -------------------------------*/
+
+.content3 {
+    display: flex;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    position: relative;
+}
+
+.content3_left {
+    width: 30%;
+}
+
+.content3_right {
+    width: 70%;
+}
+
+.container_content3_left {
+    margin-left: 50%;
+}
+
+.container_content3_left h1 {
+    font-size: 48px;
+}
+
+.container_content3_left #content3_left_txt {
+    font-size: 18px;
+    color: #5B5B5B;
+}
+
+/*CONTENT3 RIGHT -------------------------------*/
+.content3_right_1 {
+    display: flex;
+    width: 100%;
+}
+
+.content3_1,
+.content3_2,
+.content3_3 {
+    width: 25%;
+    margin-left: 2%;
+}
+
+
+.content3_right_2 {
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.content3_4,
+.content3_5,
+.content3_6 {
+    width: 25%;
+    margin-left: 2%;
+}
+
+.content3_right #content3_txt {
+    color: #232ED1;
+}
+
+/*FOOTER -----------------------------------*/
 .footer1 {
     height: 25%;
     background-color: #EFF0F8;
@@ -147,7 +268,6 @@ ul {
     cursor: pointer;
     top: 25%;
     right: 1%;
-
 }
 
 .footer2 p {
@@ -227,19 +347,15 @@ ul {
     padding-bottom: 20px;
 }
 
-
-
-
-
-/*------------------------------*/
-.insert {
+/*INSERT -------------------------*/
+.insert2 {
     position: absolute;
     width: 50%;
-    height: 20%;
+    height: 15%;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: #232ED1;
-    top: 90%;
+    top: 92%;
     left: 25%;
 }
 
@@ -261,12 +377,12 @@ ul {
 }
 
 .insert_text {
-    width: 40%;
+    width: 70%;
     margin-top: 5%;
     margin-left: 8%;
 }
 
-#text {
+.insert_text #text {
     color: #FFFFFF;
     font-size: 40px;
 }
@@ -291,7 +407,7 @@ ul {
     left: 93%;
 }
 
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 46.1875em) {
     #finsweet {
         position: absolute;
         margin-left: 38px;
@@ -321,20 +437,83 @@ ul {
         margin-top: 15%;
     }
 
-    .content_text {
-        width: 95%;
-        height: 50%;
+    /*CONTENT1*/
+    .content1 {
+        padding-bottom: 50%;
+    }
+
+    .content1 h1 {
+        margin-left: 8%;
+    }
+
+    .container_content1 {
         margin-left: 2%;
-        margin-top: 0;
-
+        width: 95%;
     }
 
-    .content {
-        height: auto;
-        position: relative;
+    .insert_content1 {
+        left: 20%;
+        top: 60%;
     }
 
-    .insert {
+    .insert_content1 img {
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    /*CONTENT2*/
+    .container1_content2 {
+        padding-left: 2%;
+    }
+
+    .container1_content2 img {
+        width: 95%;
+    }
+
+    /*CONTENT3*/
+    .content3 {
+        flex-direction: column;
+    }
+
+    .content3_left {
+        width: 100%;
+    }
+
+    .container_content3_left {
+        margin-left: 17%;
+    }
+
+    .content3_right {
+        width: 100%;
+    }
+
+    .content3_right_1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content3_1,
+    .content3_2,
+    .content3_3 {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .content3_right_2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content3_4,
+    .content3_5,
+    .content3_6 {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    /*insert ------------------------------------*/
+    .insert2 {
         width: 100%;
         position: relative;
         left: 0;
@@ -349,45 +528,55 @@ ul {
         margin-left: 0;
     }
 
-    .insert .button {
+    .insert2 .button {
         display: none;
     }
+
+    /*footer ------------------------------------*/
 
     #finsweet_footer {
         font-size: 18px;
         padding-top: 5%;
         padding-left: 5%;
     }
+
     .icons-item {
         list-style: none;
         padding-left: 0;
     }
-    .i-icons{
+
+    .i-icons {
         padding-left: 20%;
     }
-    
+
     .icons {
         width: 100%;
         margin-left: 0;
         padding-left: 0%;
     }
+
     .col-1 {
         display: none;
     }
+
     .col-2 {
         width: 35%;
         padding-left: 2%;
     }
+
     .col-3 {
         width: 30%;
     }
+
     .col-4 {
         width: 35%;
     }
-    .col-4 ul{
+
+    .col-4 ul {
         width: auto;
         height: auto;
     }
+
     #footer_title {
         padding-left: 0;
         padding-top: 0;
@@ -404,7 +593,13 @@ ul {
     .footer3 {
         width: auto;
     }
-    .footer3 p{
+
+    .footer3 p {
         padding-left: 25%;
     }
+
+    .footer_items {
+        font-size: 12px;
+    }
+    
 }

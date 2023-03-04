@@ -762,10 +762,12 @@ ul {
 
     .col-1 {
         display: none;
+        
     }
 
     .col-2 {
         width: 35%;
+        padding-left: 2%;
     }
 
     .col-3 {
