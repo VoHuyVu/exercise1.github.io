@@ -5,7 +5,6 @@ body{
 .main {
     width: 100%;
     height: auto;
-    border: 1px solid black;
     background-image: linear-gradient(180deg, #F4F5FC 0%, #E6E7FF 100%);
 }
 /* Navi Bar */
