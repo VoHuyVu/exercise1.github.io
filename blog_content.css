@@ -112,13 +112,11 @@ body {
 /* CONTENT1 -------------------------------*/
 
 .content2 {
-    border: 1px solid black;
     padding-bottom: 10%;
 }
 
 .container_content2 {
     width: 50%;
-    border: 1px solid black;
     color: #5B5B5B;
     margin-left: 25%;
     line-height: 38px;
@@ -342,7 +340,6 @@ body {
     /*--------------------CONTENT2------------------------*/
 
     .container_content2 {
-        border: 1px solid black;
         width: 90%;
         margin-left: 5%;
         margin-top: 5%;
@@ -444,7 +441,6 @@ body {
     /*CONTENT1*/
 
     .content1_left {
-        border: 1px solid black;
         width: 50%;
     }
     .container_content1_left {
@@ -465,7 +461,6 @@ body {
     /*CONTENT2*/
     .container_content2 {
         width: 90%;
-        border: 1px solid black;
         margin-left: 5%;
         margin-top: 5%;
     }
